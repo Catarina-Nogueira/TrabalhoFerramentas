@@ -14,18 +14,18 @@ A instaciação do objeto segue sempre o modelo: Nome da classe   Nome do objeto
 */
 public class Main {
     public static void main(String[] args) {
-        Cilindro c1= new Cilindro(); // instanciar o objeto - criação do objeto da classe Cilindro; o "c1" é uma variável local ao método main
-        Cilindro c2 = new Cilindro();
+        Cilindro cili1= new Cilindro(); // instanciar o objeto - criação do objeto da classe Cilindro; o "c1" é uma variável local ao método main
+        Cilindro cili2 = new Cilindro();
         double v1;
         double v2;
 
-        c1.setRaio(5);
-        c1.setAltura(10); //refência para o objeto "c1" sobre o método de instância set
-        v1 = c1.calcularVolume();
+        cili1.setRaio(5);
+        cili1.setAltura(10); //refência para o objeto "c1" sobre o método de instância set
+        v1 = cili1.calcularVolume();
 
-        c2.setRaio(4);
-        c2.setAltura(16); //refência para o objeto "c2" sobre o método de instância set
-        v2 = c2.calcularVolume(); //invocação de métodos
+        cili2.setRaio(4);
+        cili2.setAltura(16); //refência para o objeto "c2" sobre o método de instância set
+        v2 = cili2.calcularVolume(); //invocação de métodos
 
         System.out.println("Volume de c1: " + v1);
         System.out.println("Volume de c2: " + v2);
