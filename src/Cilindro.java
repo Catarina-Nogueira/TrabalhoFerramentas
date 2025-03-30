@@ -16,6 +16,17 @@ public class Cilindro {
         //atributos com o mesmo conjunto de comportamentos
         //o que distingue dois objetos da classe é o valor dos atributos dos objetos - o estado dos objetos
 
+
+        public Cilindro(double altura, double raio) {
+                this.altura = altura;
+                this.raio = raio;
+        }
+
+        public Cilindro() {
+                this.altura = 0;
+                this.raio = 0;
+        }
+
         public double getRaio() { // método de acesso que permite aceder aos valores dos atributos
                 return raio;
         }
