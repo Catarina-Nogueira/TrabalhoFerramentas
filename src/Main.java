@@ -16,6 +16,7 @@ public class Main {
     public static void main(String[] args) {
         Cilindro cili1= new Cilindro(); // instanciar o objeto - criação do objeto da classe Cilindro; o "c1" é uma variável local ao método main
         Cilindro cili2 = new Cilindro();
+        Cilindro cili3 = new Cilindro(2,4);
         double v1;
         double v2;
 
@@ -29,5 +30,6 @@ public class Main {
 
         System.out.println("Volume de c1: " + v1);
         System.out.println("Volume de c2: " + v2);
+        System.out.println("Volume do c3: " + cili3.calcularVolume());
     }
 }
